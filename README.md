@@ -7,7 +7,7 @@ This system is developed by using HTML, CSS, PHP, SQL and XAMPP SERVER (PHP Deve
 
 ![ This is an image of the "Admin login" page in the ORMS](/img/ORMS%20Image/B.jpeg)
 
-![ This is an image of the "About us" page in the ORMS](/IMG/ORMS%20Image/D.jpeeg)
+![ This is an image of the "About us" page in the ORMS](/IMG/ORMS%20Image/D.jpeg)
 
 ![ This is an image of the "Contact us" page in the ORMS](IMG/ORMS%20Image/E.jpeg)
 
