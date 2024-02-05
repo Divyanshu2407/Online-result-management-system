@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../Img/aa.jpg');
+    background-size:cover;
+    height:100vh;
+    background-attachment:fixed;
+    font-size: 30px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.clearfix:after{
+    content: " ";
+    visibility:visible ;
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1400px;
+    margin:0 auto;
+}
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:white;
+    text-shadow:  #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: rgb(254, 8, 8);
+    font-weight: 1000;
+    font-size:1.7rem;
+}
+h3{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.main-content-header{
+    border-top: 3px solid wheat;
+    color: white;
+}
+
+.main-content-header a{
+    text-decoration: none;
+    color: red;
+}
+
+h1{
+    font-family: bold;
+    color: whitesmoke;
+    padding-top: 2rem;
+    text-shadow: 0.01in;
+
+    padding-bottom: 2rem;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightslategrey;
+    text-shadow: 1.31px 1.31px rgba(213, 212, 212, 0.734);
+}
+.table1 th{
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.box{
+    height: 1.9rem;
+    width: 10rem;
+    padding:10px;
+}
+
+.student_class{
+    border: 3px solid rgba(128, 128, 128, 0.608);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.table2{
+    font-size: 30px;
+    text-align: left;
+    margin-top:30px;
+    border-top:2px solid rgba(128, 128, 128, 0.608);   
+    
+}
+.student_class2{
+    border: 2px solid rgba(128, 128, 128, 0.608);
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.student_id{
+    border-left: 2px solid rgba(128, 128, 128, 0.608);
+    color:wheat;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.608);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.student_edit{
+    border-right: 2px solid rgba(128, 128, 128, 0.608);
+    color: red;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.608);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+th{
+    padding-right: 1.5px;
+}
+.submit{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 50px;
+    color:rgba(41, 36, 36, 0.889);
+    padding: 0.2rem;
+    margin-top:10px;
+    border-width:8px;
+}
+.submit:hover{
+    background-color: #f66308f2;
+    color: black;
+    font-weight: 250;
+    font-size: 1rem;
+}
+.box1{
+    color:wheat;
+}

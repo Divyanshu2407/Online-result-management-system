@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../Img/K.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: visible;
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1400px;
+    margin:0 auto;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: rgb(233, 20, 31);
+    font-weight: 1000;
+}
+.main-content-header{
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 1180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.index_h1{
+    color:#fff;
+    word-spacing: 5px;
+    font-size: 140%;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.login_heading{
+    margin-left: 500px;
+    font-size: 70px;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #fbfbfbf6;
+    text-shadow: 2.5px 2.5px black;
+}
+.login-content-header{
+    width:100%;
+    border-top: 3px solid wheat;
+}
+h1:hover{
+    font-size: 4.5rem;
+    color: #f66308;
+}
+.row{
+    max-width: 1400px;
+    margin:0 auto;
+}
+
+.table{
+    margin-left:350px;
+    color:black;
+    margin-top:2.0rem;
+    margin-bottom: 2.0rem;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-left:30px;
+}
+.table th{
+    color: rgba(18, 1, 1, 0.549);
+	font-size: 70px;
+	-webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #1ebba3;
+    text-shadow: 1.35px 1.35px #1ebba3;
+}
+.field1{
+    color:white;
+    height: 2.6rem;
+    width: 20rem;
+    padding:10px;
+    margin-top:2.0rem;
+    margin-bottom: 2.0rem;
+    background-color:#1ebba3;
+}
+.table input::placeholder{
+    color:black;
+}
+.submit{
+    width: 115px;
+    color:rgba(12, 9, 9, 0.889);
+    padding: 0.6rem;
+    margin-left:400px;
+    margin-top:2.0rem;
+    margin-bottom: 2.0rem;
+    border-width:10px;
+}
+.submit:hover{
+    background-color: #f66308f2;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    
+}

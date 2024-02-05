@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../Img/ee.jpg');
+    background-size:cover;
+    height:100vh;
+    overflow-x:hidden;
+    background-attachment:fixed;
+    font-size: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    height: 100vh;
+    background-size: cover;
+}
+.clearfix:after {
+    content: " ";
+    visibility: visible;
+    display: block;
+    height: 10px;
+    clear: both;
+}
+.row {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.main-nav {
+    float: right;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a {
+    padding: 5px 2px;
+    color: whitesmoke;
+    text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover {
+    color: rgb(237, 13, 13);
+    font-weight: 1000;
+}
+h3 {
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.main-content-header {
+    border-top: 3px solid lightyellow;
+}
+
+                /*table Heading*/
+
+                
+table {
+    margin-top: 25px;
+    margin-left:20px;
+    margin-left:20px;
+}
+.message_h1 {
+    font-size: 1.5rem;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #ff0066;
+    border-top: 3px solid grey;
+}
+
+.id_h1 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #ff0066;
+    border-top: 3px solid grey;
+    border-left: 3px solid rgba(128, 128, 128, 0.608);
+}
+.name_h1 {
+    font-size: 1.5rem;
+    padding-left: 15px;
+    color: #ff0066;
+    border-top: 3px solid rgba(128, 128, 128, 0.608);
+}
+.email_h1 {
+    font-size: 1.5rem;
+    padding-left: 55px;
+    color: #ff0066;
+    border-top: 3px solid rgba(128, 128, 128, 0.608);
+}
+.contact_h1 {
+    font-size: 1.5rem;
+    padding-left: 55px;
+    padding-right: 20px;
+    color: #ff0066;
+    border-top: 3px solid rgba(128, 128, 128, 0.608);
+}
+th {
+    padding-left: 100px;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.608);
+    border-right: 3px solid rgba(128, 128, 128, 0.608);
+}
+
+.message_h {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-right: 3px solid rgba(128, 128, 128, 0.608);
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.name_h {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding-left: 15px;
+    border-right: 3px solid rgba(128, 128, 128, 0.608);
+    padding-right: 35px;
+}
+.email_h {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding-left: 55px;
+    border-right: 3px solid rgba(128, 128, 128, 0.608);
+    padding-right: 35px;
+}
+.contact_h {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding-left: 55px;
+    border-right: 3px solid rgba(128, 128, 128, 0.608);
+    padding-right: 35px;
+}
