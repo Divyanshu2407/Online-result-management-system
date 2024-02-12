@@ -3,7 +3,7 @@ This system is developed by using HTML, CSS, PHP, SQL and XAMPP SERVER (PHP Deve
 
 ![ This is an image of the "Result login" page in the ORMS](/ORMS%20Image/A.png)
 
-![ This is an image of the "Result page" in the ORMS](/ORMS%20Image/I.jpeg)
+![ This is an image of the "Result page" in the ORMS](/ORMS%20Image/l.png)
 
 ![ This is an image of the "Admin login" page in the ORMS](/ORMS%20Image/B.jpeg)
 
