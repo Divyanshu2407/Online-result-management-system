@@ -134,7 +134,7 @@ if (isset($_POST['submit'])) {
                         }
                         else
                         {
-                            echo " Congratulations! you passed😊. ";
+                            echo " Congratulations! You passed😊. ";
                         }
                         ?>
                         </span>
