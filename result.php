@@ -71,10 +71,10 @@ if (isset($_POST['submit'])) {
                     <table class="table2">
                         <tr>
                             <th class="table2 color">Suject</th>
-                            <th class="table2 color">Half Yealy Exam Score</th>
-                            <th class="table2 color">Annual Exam Score</th>
-                            <th class="table2 color">Total</th>
-                            <th class="table2 color">Max. Mark</th>
+                            <th class="table2 color">Mid-Term Marks</th>
+                            <th class="table2 color">Final-Term Marks</th>
+                            <th class="table2 color"> Total</th>
+                            <th class="table2 color">Maximum Marks</th>
                         </tr>
                         <tr>
                             
